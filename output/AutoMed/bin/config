@@ -1,0 +1,20 @@
+EXCEL_PATH = tc_no.xlsx
+OUT_EXCEL_PATH = Mustehaklik.xlsx
+CHROMEDRIVER_PATH = chromedriver.exe
+Kullanici_Adi = 
+Sifre = 
+Key = 
+login_page = https://medeczane.sgk.gov.tr/eczane/login.jsp
+main_page = https://medeczane.sgk.gov.tr/eczane/
+sorgu_page = https://medeczane.sgk.gov.tr/eczane/faces/pages/haksahibi/MustehaklikSorgu.jsp
+[XPATH]
+login_username = /html/body/table[2]/tbody/tr/td[1]/form/table/tbody/tr[2]/td/table/tbody/tr[1]/td[2]/input
+login_password = /html/body/table[2]/tbody/tr/td[1]/form/table/tbody/tr[2]/td/table/tbody/tr[2]/td[2]/input
+login_securitykey = /html/body/table[2]/tbody/tr/td[1]/form/table/tbody/tr[2]/td/table/tbody/tr[4]/td[2]/input
+sorgu = //*[@id="form1:menuHtmlCommandExButton201_MOUSE"]
+sorgu_input = //*[@id="form1:text2"]
+sorgu_buton = //*[@id="form1:buttonSorgula"]
+isim = //*[@id="form1:text13"]
+soyisim = //*[@id="form1:text17"]
+kapsam = //*[@id="form1:text22"]
+message = //*[@id="form1"]/table[1]/tbody/tr/td[2]/center/div/table/tbody/tr/td[2]/span
